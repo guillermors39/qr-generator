@@ -2,6 +2,8 @@
 
 Una aplicación React + TypeScript para generar códigos QR con funcionalidad de exportación a PNG y JPEG.
 
+🌐 **[Ver demo en vivo](https://guillermors39.github.io/qr-generator/)**
+
 ## ✨ Características
 
 - 📝 Interfaz intuitiva para ingresar texto
@@ -158,3 +160,27 @@ export default defineConfig([
   },
 ])
 ```
+
+## 🚀 Despliegue
+
+Este proyecto está configurado para desplegarse automáticamente en GitHub Pages usando GitHub Actions.
+
+### Despliegue automático
+
+Cada push a la rama `main` activará automáticamente el workflow de GitHub Actions que:
+
+1. Instala las dependencias
+2. Construye el proyecto
+3. Despliega a GitHub Pages
+
+### Despliegue manual
+
+También puedes desplegar manualmente usando:
+
+```bash
+npm run deploy
+```
+
+## 📄 Licencia
+
+Este proyecto está bajo la Licencia MIT.
